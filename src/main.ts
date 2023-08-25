@@ -9,47 +9,47 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <!-- Hero Section -->
     <section id="hero">
       <div class="hero-content">
-        <h1>ChatBox Pro</h1>
-        <p>Revolutionize Your Customer Experience with AI</p>
-        <a href="#features" class="main-btn">Discover Features</a>
+        <h1>Russian Tech Squad</h1>
+        <p>Where cold winters forge the hottest tech talents!</p>
+        <a href="#features" class="main-btn">Discover Our Skills</a>
       </div>
     </section>
     <!-- Product Features -->
     <section id="features">
-    <h1>Welcome to ChatBox Pro</h1>
-    <p>The next generation chatbot service.</p>
+    <h1>Welcome to Russian Tech Squad</h1>
+    <p>Unlock the power of the Russian tech force!</p>
     
       <div class="feature-list">
         <div class="feature-item">
           <div class="icon-bg">
               <img src="${Clock}" alt="24/7 Support Icon">
           </div>
-          <h3>24/7 Customer Support</h3>
-          <p>We're always here to assist you. Day or night, ChatBox Pro ensures you have the support you need.</p>
+          <h3>Unmatched Resilience</h3>
+          <p>Whether it's coding in Siberian cold or troubleshooting during a balalaika concert, we never back down.</p>
         </div>
           
         <div class="feature-item">
           <div class="icon-bg">
             <img src="${Ai}" alt="AI-powered Icon">
           </div>
-          <h3>AI-powered Conversations</h3>
-          <p>Experience state-of-the-art bot responses. Our AI learns and evolves, ensuring the best user experience.</p>
+          <h3>Celebratory Spirit</h3>
+          <p>Every successful project is celebrated with a toast. For big projects, even a dance!</p>
         </div>
         
         <div class="feature-item">
           <div class="icon-bg">
             <img src="${Int}" alt="Integration Icon">
           </div>
-          <h3>Easy Integration</h3>
-          <p>Seamlessly incorporate ChatBox Pro into your workflow. Integrate with top CRMs, websites, and apps.</p>
+          <h3>Layered Solutions</h3>
+          <p>Just like our Matryoshka dolls, our solutions have layers. Dive deep to discover more.</p>
         </div>
           
         <div class="feature-item">
           <div class="icon-bg">
             <img src="${Analyt}" alt="Analytics Icon">
           </div>
-          <h3>Powerful Analytics</h3>
-          <p>Understand user behavior, gather feedback, and improve your service with our in-depth analytics tools.</p>
+          <h3>Warm Support</h3>
+          <p>Our support team is always there, keeping your projects warm and running, just like an Ushanka in winter!</p>
         </div>
       </div>
     </section>
@@ -58,14 +58,14 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <section id="testimonials" data-speed="2">
       <div class="parallax-background-testimonials"></div>
       <div class="testimonials-content">
-        <h2>What our clients say</h2>
+        <h2>What our comrades say</h2>
         <div class="testimonial">
-          <blockquote>"ChatBox Pro has transformed our customer service experience!"</blockquote>
-          <cite>- Alex</cite>
+          <blockquote>"After using Tech Squad, even my babushka wants to set it up for her pierogi recipes blog!"</blockquote>
+          <cite>- Ivan</cite>
         </div>
         <div class="testimonial">
-          <blockquote>"Impressive response time and AI capabilities."</blockquote>
-          <cite>- Jordan</cite>
+          <blockquote>"It's faster than a sledge in Siberian snow! Tech Squad is as sharp as my ushanka in winter."</blockquote>
+          <cite>- Anastasia</cite>
         </div>
       </div>
     </section>
@@ -79,24 +79,24 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <circle cx="50" cy="80" r="15" fill="#f00" />
           </svg>
         </div>
-        <h2>Join Our Community</h2>
-        <p>Experience the best features and support by joining our community today. Don't miss out on our limited-time offer!</p>
-        <button class="main-btn">Get Started</button>
+        <h2>Join Our Comrade Collective!</h2>
+        <p>Why endure Siberian cold alone? Warm up with our community's camaraderie and features. Special borscht offer for limited time!</p>
+        <button class="main-btn">Start the Party!</button>
       </div>
     </section>
 
     <!-- Newsletter Signup -->
     <section id="newsletter">
       <div class="newsletter-content">
-        <h2>Stay Updated!</h2>
-        <p>Get the latest news, updates, and exclusive offers delivered straight to your inbox. We value your privacy and will never spam you.</p>
+        <h2>Stay Informed, Comrade!</h2>
+        <p>Subscribe for the freshest babushka recipes, tips on bear wrestling, and updates from the motherland! We respect your privacy more than a bear respects honey.</p>
         
         <div class="signup-form">
-            <input type="email" placeholder="Enter your email address" aria-label="Email for newsletter signup" required>
-            <button class="main-btn">Sign Up</button>
+          <input type="email" placeholder="Enter your matryoshka email" aria-label="Email for newsletter signup" required>
+          <button class="main-btn">Join The Parade!</button>
         </div>
         
-        <p class="privacy-notice">By signing up, you agree to our <a href="#">Privacy Policy</a>.</p>
+        <p class="privacy-notice">By signing up, you show trust in us. We won't let you down! Read our <a href="#">Privacy Policy</a>.</p>
       </div>
     </section>
   </div>
