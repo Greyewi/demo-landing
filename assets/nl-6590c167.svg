@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+    <!-- Gradient Definition -->
+    <defs>
+        <linearGradient id="newsletter-gradient" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" style="stop-color: #f3f7fc"/>
+            <stop offset="100%" style="stop-color: #e1eaf5"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background Rectangle with Gradient -->
+    <rect x="0" y="0" width="1000" height="1000" fill="url(#newsletter-gradient)"/>
+
+    <!-- Soft Waves at the Bottom -->
+    <path d="M0,850 C250,750 750,950 1000,850 L1000,1000 L0,1000 Z" fill="#d9e3ef"/>
+</svg>
