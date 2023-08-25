@@ -1,4 +1,4 @@
-(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const a of t.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&r(a)}).observe(document,{childList:!0,subtree:!0});function i(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=i(e);fetch(e.href,t)}})();const n="/assets/clock-93c43660.svg",c="/assets/ai-78ebdd34.svg",l="/assets/intergation-f703cae2.svg",d="/assets/analytics-a2327f1b.svg";document.querySelector("#app").innerHTML=`
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const n of t.addedNodes)n.tagName==="LINK"&&n.rel==="modulepreload"&&r(n)}).observe(document,{childList:!0,subtree:!0});function i(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=i(e);fetch(e.href,t)}})();const a=""+new URL("clock-93c43660.svg",import.meta.url).href,c=""+new URL("ai-78ebdd34.svg",import.meta.url).href,l=""+new URL("intergation-f703cae2.svg",import.meta.url).href,d=""+new URL("analytics-a2327f1b.svg",import.meta.url).href;document.querySelector("#app").innerHTML=`
   <div>
     <!-- Hero Section -->
     <section id="hero">
@@ -16,7 +16,7 @@
       <div class="feature-list">
         <div class="feature-item">
           <div class="icon-bg">
-              <img src="${n}" alt="24/7 Support Icon">
+              <img src="${a}" alt="24/7 Support Icon">
           </div>
           <h3>24/7 Customer Support</h3>
           <p>We're always here to assist you. Day or night, ChatBox Pro ensures you have the support you need.</p>
@@ -94,4 +94,4 @@
       </div>
     </section>
   </div>
-`;document.querySelector(".main-btn").addEventListener("click",o=>{o.preventDefault();const s=document.getElementById("features");s&&s.scrollIntoView({behavior:"smooth"})});document.addEventListener("scroll",function(){document.querySelectorAll("#newsletter, #testimonials").forEach(s=>{const i=parseFloat(s.dataset.speed||"2"),e=-(window.pageYOffset*i/10),t=s.querySelector(".parallax-background, .parallax-background-testimonials");t&&(t.style.transform=`translateY(${e}px)`)})});
+`;document.querySelector(".main-btn").addEventListener("click",s=>{s.preventDefault();const o=document.getElementById("features");o&&o.scrollIntoView({behavior:"smooth"})});document.addEventListener("scroll",function(){document.querySelectorAll("#newsletter, #testimonials").forEach(o=>{const i=parseFloat(o.dataset.speed||"2"),e=-(window.pageYOffset*i/10),t=o.querySelector(".parallax-background, .parallax-background-testimonials");t&&(t.style.transform=`translateY(${e}px)`)})});
