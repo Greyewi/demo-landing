@@ -6,7 +6,7 @@ import Analyt from './assets/analytics.svg'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-  <!-- Hero Section -->
+    <!-- Hero Section -->
     <section id="hero">
       <div class="hero-content">
         <h1>ChatBox Pro</h1>
@@ -54,7 +54,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       </div>
     </section>
 
-
     <!-- Testimonials -->
     <section id="testimonials" data-speed="2">
       <div class="parallax-background-testimonials"></div>
@@ -76,9 +75,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <div class="cta-content">
         <div class="svg-container">
           <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <!-- Hand Pointer -->
             <path d="M50 5 L65 30 L60 45 L75 60 L55 95 L45 75 L25 70 L30 50 L45 30 Z" fill="#000" />
-            <!-- Circular Button Under Pointer -->
             <circle cx="50" cy="80" r="15" fill="#f00" />
           </svg>
         </div>
@@ -115,7 +112,6 @@ document.querySelector('.main-btn').addEventListener('click', (e: Event) => {
 });
 
 document.addEventListener("scroll", function() {
-  // Including both newsletter and testimonials sections for parallax
   const parallaxSections: NodeListOf<HTMLElement> = document.querySelectorAll("#newsletter, #testimonials");
 
   parallaxSections.forEach((section: HTMLElement) => {
