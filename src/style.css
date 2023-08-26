@@ -241,6 +241,10 @@ cite {
   margin-bottom: 30px;
 }
 
+.newsletter-content {
+  margin: 0 10px;
+}
+
 .signup-form {
   display: flex;
   justify-content: center;
